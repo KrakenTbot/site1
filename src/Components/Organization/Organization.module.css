@@ -1,0 +1,16 @@
+.container {
+    @apply w-full flex flex-col items-center lg:py-[70px];
+}
+.block {
+    @apply h-full flex flex-col items-center
+    lg:w-[43%];
+}
+.block h1 {
+    @apply text-[50px] font-[300] lg:mb-[30px];
+}
+.block img {
+    @apply w-full lg:mt-[30px];
+}
+.block p {
+    @apply text-center lg:mt-[50px] text-[18px] font-[300];
+}

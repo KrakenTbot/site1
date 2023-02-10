@@ -1,0 +1,19 @@
+.container {
+    @apply bg-white
+    sm:w-full sm:flex sm:items-center sm:justify-center sm:border-b sm:border-solid sm:border-[#deddb9] sm:fixed sm:h-[60px];
+}
+.linkBlock {
+    @apply w-full h-full flex items-center justify-center 
+    lg:w-[900px];
+}
+.linkBlock button {
+    @apply h-full flex font-[17px] font-[300] items-center justify-center border-l border-solid border-[#deddb9] whitespace-nowrap ease-linear
+    lg:py-[15px] lg:px-[20px];
+    outline: none;
+}
+.linkBlock button:last-child {
+    @apply border-r border-solid border-[#deddb9];
+}
+.linkBlock button:hover {
+    @apply bg-[#eeeedc] ease-linear;
+}

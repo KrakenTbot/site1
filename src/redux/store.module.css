@@ -1,0 +1,9 @@
+.InfoBlock {
+    @apply w-full h-full px-[30px] py-[30px] bg-white;
+}
+.InfoBlock h1 {
+    @apply text-[24px] font-[300];
+}
+.InfoBlock p {
+    @apply text-[17px] font-[300];
+}

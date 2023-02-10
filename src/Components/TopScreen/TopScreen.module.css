@@ -1,0 +1,19 @@
+.container {
+    @apply w-full h-[800px] flex items-center justify-center;
+}
+.imageblock {
+    @apply lg:w-[860px] lg:h-[460px];
+    background-image: url(../images/imgonline-com-ua-Black-White-jGARZrL3mi.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textBlock {
+    @apply flex flex-col items-center lg:w-[860px] lg:h-[110px] pt-[30px];
+}
+.textBlock p {
+    @apply text-[20px] font-[400] text-[#86926c];
+}
+.textBlock h1 {
+    @apply text-[60px] font-[400];
+}

@@ -1,0 +1,9 @@
+.container {
+    @apply mb-[50px];
+}
+.container h1{
+    @apply text-[48px] font-[300];
+}
+.container p {
+    @apply text-[17px] font-[300] mt-[30px];
+}

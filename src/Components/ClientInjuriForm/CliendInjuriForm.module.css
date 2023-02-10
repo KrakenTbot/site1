@@ -1,0 +1,23 @@
+.container {
+    @apply w-full bg-[#eeeedc] lg:py-[70px] flex flex-col items-center;
+}
+.container h1 {
+    @apply text-[48px] font-[300];
+}
+.container p {
+    @apply text-[20px] font-[400] text-[#86926c];
+}
+.block {
+    @apply h-full flex flex-col items-center lg:w-[430px] mt-[50px];
+}
+.block input {
+    @apply w-full h-[50px] pl-[7px] text-[#bbc8dc] mb-[15px] rounded;
+    outline: none;
+}
+.block textarea {
+    @apply w-full h-[150px] p-[7px];
+    outline: none;
+}
+.block input:last-child {
+    @apply lg:w-1/3 h-[50px] bg-[#86926c] mt-[30px];
+}

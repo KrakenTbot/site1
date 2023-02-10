@@ -1,0 +1,15 @@
+.container {
+    @apply w-full bg-[#eeeedc] lg:py-[70px] flex justify-center;
+}
+.block {
+    @apply w-[43%] h-full text-left flex flex-col items-center;
+}
+.block h1 {
+    @apply text-[50px] font-[300] lg:mb-[30px];
+}
+.block h2 {
+    @apply text-[30px] font-[300] mb-[30px];
+}
+.block p {
+    @apply text-[17px] font-[300] mb-[30px];
+}

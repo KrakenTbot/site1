@@ -1,0 +1,22 @@
+.container {
+    @apply w-full h-[850px] flex justify-center lg:py-[70px];
+}
+.block {
+    @apply h-full flex flex-col items-center
+    lg:w-[43%];
+}
+.infoBlock {
+    @apply w-full h-[48%] flex items-center justify-between mb-[30px];
+}
+.infoBlock img {
+    @apply w-[60%] h-full;
+}
+.textBlock {
+    @apply lg:w-2/6;
+}
+.textBlock h3 {
+    @apply text-[24px] font-[300] mb-[10px];
+}
+.textBlock p {
+    @apply text-[17px] font-[300];
+}

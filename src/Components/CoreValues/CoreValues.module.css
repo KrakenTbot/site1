@@ -1,0 +1,25 @@
+.container {
+    @apply w-full bg-[#eeeedc] lg:py-[70px] flex justify-center;
+}
+.block {
+    @apply h-full flex justify-between
+    lg:w-[43%];
+}
+.leftBlock {
+    @apply lg:w-[60%];
+}
+.rightBlock {
+    @apply flex flex-col items-center lg:w-[40%];
+}
+.rightBlock img {
+    @apply w-[150px];
+}
+.rightBlock img:nth-child(2) {
+    @apply mt-[280px];
+}
+.rightBlock img:nth-child(3) {
+    @apply mt-[230px];
+}
+.rightBlock img:nth-child(4) {
+    @apply mt-[190px];
+}
